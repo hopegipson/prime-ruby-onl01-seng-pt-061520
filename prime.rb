@@ -5,11 +5,12 @@ def prime?(number)
  if number < 2
    return false
   else
-    while 
+    while (i< number)
     if (number % i == 0)
 			counter+=1
 			else
 					i += 1
+	end
 	end
 	if counter > 1
     return true
