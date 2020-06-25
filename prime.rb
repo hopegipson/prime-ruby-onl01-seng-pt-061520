@@ -8,7 +8,6 @@ def prime?(number)
     while (i< number)
       if (number % i == 0)
 			counter+=1
-			end
 					i += 1
 	end
 if counter > 1
