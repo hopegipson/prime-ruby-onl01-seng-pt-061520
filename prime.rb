@@ -3,8 +3,9 @@ def prime?(number)
   i= 2
   counter = 0
  if number < 2
-   return false
+   return true
   else
+
     if (number % i == 0)
 			counter+=1
 		end
