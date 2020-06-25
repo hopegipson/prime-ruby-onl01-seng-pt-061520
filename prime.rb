@@ -6,11 +6,11 @@ def prime?(number)
    return false
   else
     if (number % i == 0)
-			count+=1
+			counter+=1
 		end
 		i += 1
 	end
-	if count>1
+	if counter > 1
     return false
 else
     return true	
