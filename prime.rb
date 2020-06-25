@@ -6,13 +6,13 @@ def prime?(number)
    return false
   else
     while (i< number)
-    if (number % i == 0)
+      if (number % i == 0)
 			counter+=1
 			else
 					i += 1
+	    end
 	end
-	end
-	if counter > 1
+if counter > 1
     return true
 else
     return false	
