@@ -7,9 +7,9 @@ def prime?(number)
       i= 2
     while (i< number)
       if (number % i == 0)
-			counter+=1
-			end
+			counter += 1
 					i += 1
+					end
 	end
 end
 if counter > 1
