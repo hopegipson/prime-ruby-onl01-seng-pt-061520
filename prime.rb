@@ -5,6 +5,7 @@ def prime?(number)
  if number < 2
    return false
   else
+    while 
     if (number % i == 0)
 			counter+=1
 			else
