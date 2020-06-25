@@ -11,8 +11,8 @@ def prime?(number)
 		i += 1
 	end
 	if counter > 1
-    return false
+    return true
 else
-    return true	
+    return false	
   end
 end
