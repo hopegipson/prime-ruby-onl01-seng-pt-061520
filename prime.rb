@@ -10,7 +10,6 @@ def prime?(number)
 			counter += 1
 			end
 					i += 1
-					
 	end
 end
 if counter > 1
